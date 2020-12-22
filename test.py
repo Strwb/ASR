@@ -1,6 +1,15 @@
-def zzz(data, maxi=None, mini=None:
-    return (maxi, mini)
+import recognize as r
 
-test_data = [1, 2, 3, 4, 5]
 
-print(zzz(test_data))
+words = ["one", "two", "three", "four", "five"]
+num_states = 3
+
+reco = r.Recognizer(num_states)
+# reco.training(words)
+
+for word in words:
+    print(f"\nRecognition of word {word}")
+    reco.recognize_word(word)
+
+
+

@@ -6,6 +6,11 @@ authors = ["Jan Pierzchala"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+numpy = "^1.18.4"
+scipy = "^1.4.1"
+matplotlib = "^3.2.1"
+python_speech_features = "^0.6"
+sklearn = "^0.0"
 
 [tool.poetry.dev-dependencies]
 
